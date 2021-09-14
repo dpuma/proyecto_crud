@@ -1,8 +1,8 @@
 <?php
 
 #datos recibidos por el get en la url 
-echo $controlador;
-echo $accion; 
+#echo $controlador;
+#echo $accion; 
 
 # crea ruta dinamica 
 include_once("controladores/controlador_".$controlador.".php");
